@@ -43,6 +43,7 @@ def outpout(liste_caractere : list) :
 
 ### MAIN ###
 
-image_source = IMG.open("mario.jpeg")
+image_source = IMG.open("OIP.jpg")
 decoupe = remplacement(decoupe_image(image_source))
 outpout(decoupe)
+
